@@ -5,6 +5,9 @@ background-color: #d8b474;
 img {
   width: 10%;
   height: auto;
+}
+
+.diary {  
   margin-right: 100px;
   margin-top: 50px;
 }
