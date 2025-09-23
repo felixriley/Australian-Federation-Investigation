@@ -9,8 +9,8 @@ let offsetY = 0;
 
 const images = [
   { src: "diary.png", x: -200, y: -200, w: 400, h: 300 },
-  { src: "image2.png", x: 600, y: -100, w: 400, h: 300 },
-  { src: "image3.png", x: -800, y: 400, w: 400, h: 300 },
+  { src: "news.png", x: 600, y: -100, w: 400, h: 300 },
+  { src: "poster.png", x: -800, y: 400, w: 400, h: 300 },
 ];
 const loadedImages = {};
 images.forEach(img => {
