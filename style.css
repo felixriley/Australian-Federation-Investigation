@@ -1,15 +1,14 @@
 body {
-background-image: url('cork.png');
-background-repeat: no-repeat; 
-background-size: cover;
-background-position: center center;
-background-attachment: fixed;
-margin: 0;
-height: 100vh;
+  background-image: url('cork.png');
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-img {
-  width: 15%;
+.image-with-pin img {
+  width: 15vw;
   height: auto;
 }
 
@@ -25,7 +24,6 @@ img {
 
 .image-with-pin {
   position: relative;
-  display: inline-block;
 }
 
 .image-with-pin::after {
