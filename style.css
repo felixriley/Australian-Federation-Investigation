@@ -29,8 +29,9 @@ body {
 .image-with-pin::after {
   content: '';
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 20px;
   height: 20px;
   background-color: #e74c3c;
