@@ -22,6 +22,11 @@ body {
   margin-top: 150px;
 }
 
+.poster {  
+  margin-right: 75px;
+  margin-top: 175px;
+}
+
 .image-with-pin {
   position: relative;
 }
