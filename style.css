@@ -7,7 +7,7 @@ body {
   height: 100vh;
 }
 
-.image-with-pin img {
+img {
   width: 15vw;
   height: auto;
 }
