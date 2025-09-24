@@ -1,30 +1,13 @@
+html, body {
+  height: 100%;
+}
+
 body {
   background-image: url('cork.png');
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  height: 100vh;
-}
-
-img {
-  width: 15vw;
-  height: auto;
-}
-
-.diary {  
-  margin-right: 110px;
-  margin-top: 70px;
-}
-
-.news {  
-  margin-right: 50px;
-  margin-top: 150px;
-}
-
-.vote {  
-  margin-right: 75px;
-  margin-top: 175px;
 }
 
 .image-with-pin {
@@ -34,14 +17,28 @@ img {
 .image-with-pin::after {
   content: '';
   position: absolute;
-  top: -10px;
+  top: -15px;
   left: 50%;
   transform: translateX(-50%);
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background-color: #e74c3c;
   border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  z-index: 1;
+  border: 3px solid white;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.photo-tilt-left {
+  transform: rotate(-5deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.photo-tilt-right {
+  transform: rotate(5deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+.image-with-pin:hover img {
+    transform: rotate(0deg) scale(1.05);
 }
